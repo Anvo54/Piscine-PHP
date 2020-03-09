@@ -4,10 +4,11 @@
 
 .content-box{
 	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 .header-image{
-	border-radius: 25px;
+	border-radius: 8px;
 	background: url(resources/day_of_the_42.png);
 	background-color: rgb(145, 145, 145);
 	background-size: contain;
@@ -23,6 +24,51 @@
 .search{
 	float: right;
 	position: relative;
-
 	padding-right: 33px;
+}
+.main-content{
+	background-image: url(resources/cluster.jpg);
+	width: 1000px;
+	height: 562px;
+	background-size: contain;
+	margin: auto;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: rgb(145, 145, 145);
+	box-shadow: 10px 10px 5px black;
+}
+.reload{
+	padding-left: 1400;
+	position: absolute;
+}
+.close{
+	padding-top: 99px;
+	padding-left: 1400;
+	position: absolute;
+}
+.left{
+	position: absolute;
+	padding-left: 273px;
+}
+.left-menu{
+	background-color: rgb(145, 145, 145);
+	height: 405;
+	width: 120;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: rgb(145, 145, 145);
+	box-shadow: 10px 10px 5px black;
+	position: absolute;
+}
+.left-images{
+	margin-left: 16%;
+	width: 80px;
+}
+.selected{
+	border-color: #ff0300;
+	border-width: 5px;
+	border-radius: 7px;
+	border-style: solid;
 }
