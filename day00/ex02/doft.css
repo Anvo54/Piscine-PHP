@@ -1,0 +1,28 @@
+.bg{
+	background-color: rgb(80, 80, 80);
+}
+
+.content-box{
+	padding-top: 10px;
+}
+
+.header-image{
+	border-radius: 25px;
+	background: url(resources/day_of_the_42.png);
+	background-color: rgb(145, 145, 145);
+	background-size: contain;
+	width:  1420px;
+	height: 117px;
+	background-repeat: no-repeat;
+	margin: auto;
+	border-color: rgb(145, 145, 145);
+	border-style: solid;
+	border-width: 10px;
+	box-shadow: 10px 10px 5px black;
+}
+.search{
+	float: right;
+	position: relative;
+
+	padding-right: 33px;
+}
