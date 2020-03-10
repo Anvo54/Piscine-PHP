@@ -48,7 +48,6 @@
 	position: absolute;
 }
 .left{
-	position: absolute;
 	padding-left: 273px;
 }
 .left-menu{
@@ -60,7 +59,6 @@
 	border-width: 10px;
 	border-color: rgb(145, 145, 145);
 	box-shadow: 10px 10px 5px black;
-	position: absolute;
 }
 .left-images{
 	margin-left: 16%;
@@ -71,4 +69,7 @@
 	border-width: 5px;
 	border-radius: 7px;
 	border-style: solid;
+}
+.table-style{
+	padding: 10px;
 }
