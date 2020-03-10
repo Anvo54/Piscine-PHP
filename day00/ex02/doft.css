@@ -29,8 +29,8 @@
 	padding-right: 33px;
 }
 .main-content{
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
 	border-radius: 8px;
 	border-style: solid;
 	border-width: 10px;
@@ -45,11 +45,13 @@
 .reload{
 	padding-left: 1400;
 	position: absolute;
+	z-index: 2;
 }
 .close{
 	padding-top: 99px;
 	padding-left: 1400;
 	position: absolute;
+	z-index: 1;
 }
 
 .left-menu{
@@ -76,7 +78,8 @@
 }
 .left-images{
 	margin-left: 16%;
-	width: 80px;
+	width: 75px;
+	padding: 2px;
 }
 .brick{
 	background-image: url(resources/brick.jpg);
@@ -94,34 +97,48 @@
 }
 
 .green-area{
-	background-color: rgb(166, 251, 150);
-	border-color: rgb(166, 251, 150);
+	background-color: rgba(136,255,137,1);
+	border-color: rgba(136,255,137,1);
 	border-radius: 8px;
-	width: 510;
-	height: 160;
+	width: 520;
+	height: 170;
 	position: absolute;
 	margin-left: 25%;
-	padding: 5px;
+	padding-left: 8px;
 	box-shadow: 10px 10px 5px black;
 	border-style: solid;
-	bottom: -90px;
-	left: -510px;
+	bottom: -110px;
+	left: -520px;
 }
 
 .para{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .larger{
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: xx-large;
+	font-family: Georgia;
+	font-size: 33px;
 }
 .ordinate{
 	font-family: sans-serif;
 }
 .red{
-	text-shadow: red 4px 2px 4px;
+	text-shadow: red 6px 6px 5px;
 }
 .input{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	margin-right: 20px;
+	margin-right: 10px;
+	margin-top: 3px;
+}
+input[type=submit] {
+	border-radius: 2px;
+	border-style: solid;
+	background-color: rgb(245, 245, 245);
+	border-color: darkgray;
+}
+input[type=text] {
+	border: 1px solid;
+    border-bottom-color: rgba(241,237,236,1);
+    border-right-color: rgba(238,238,238,1);
+    border-left-color: rgba(154,156,155,1);
+    border-top-color: rgba(154,156,155,1);
 }
