@@ -1,10 +1,12 @@
 .bg{
 	background-color: rgb(80, 80, 80);
+	position: relative;
 }
 
 .content-box{
 	padding-top: 10px;
 	padding-bottom: 20px;
+	align-items: center;
 }
 
 .header-image{
@@ -27,16 +29,18 @@
 	padding-right: 33px;
 }
 .main-content{
-	background-image: url(resources/cluster.jpg);
-	width: 1000px;
-	height: 562px;
-	background-size: contain;
-	margin: auto;
+	margin-left: 20px;
+	margin-right: 20px;
 	border-radius: 8px;
 	border-style: solid;
 	border-width: 10px;
 	border-color: rgb(145, 145, 145);
 	box-shadow: 10px 10px 5px black;
+	position: relative;
+}
+.main-content img{
+	width: 1000px;
+	height: 562px;
 }
 .reload{
 	padding-left: 1400;
@@ -47,9 +51,7 @@
 	padding-left: 1400;
 	position: absolute;
 }
-.left{
-	padding-left: 273px;
-}
+
 .left-menu{
 	background-color: rgb(145, 145, 145);
 	height: 405;
@@ -59,10 +61,27 @@
 	border-width: 10px;
 	border-color: rgb(145, 145, 145);
 	box-shadow: 10px 10px 5px black;
+	margin-left: auto;
+}
+.right-menu{
+	background-color: rgb(145, 145, 145);
+	height: 405;
+	width: 120;
+	border-radius: 8px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: rgb(145, 145, 145);
+	box-shadow: 10px 10px 5px black;
+	margin-right: auto;
 }
 .left-images{
 	margin-left: 16%;
 	width: 80px;
+}
+.brick{
+	background-image: url(resources/brick.jpg);
+	width: 120px;
+	height: 70px;
 }
 .selected{
 	border-color: #ff0300;
@@ -71,5 +90,38 @@
 	border-style: solid;
 }
 .table-style{
-	padding: 10px;
+	display: flex;
+}
+
+.green-area{
+	background-color: rgb(166, 251, 150);
+	border-color: rgb(166, 251, 150);
+	border-radius: 8px;
+	width: 510;
+	height: 160;
+	position: absolute;
+	margin-left: 25%;
+	padding: 5px;
+	box-shadow: 10px 10px 5px black;
+	border-style: solid;
+	bottom: -90px;
+	left: -510px;
+}
+
+.para{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.larger{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: xx-large;
+}
+.ordinate{
+	font-family: sans-serif;
+}
+.red{
+	text-shadow: red 4px 2px 4px;
+}
+.input{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-right: 20px;
 }
