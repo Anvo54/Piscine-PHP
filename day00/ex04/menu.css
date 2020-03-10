@@ -1,0 +1,52 @@
+ul {
+	list-style: none;
+	padding: 15px;
+	margin: 5px;
+	background: rgb(255, 129, 129);
+}
+ul li {
+	display: block;
+	position: relative;
+	float: left;
+	font-family: monospace;
+	font-weight: bolder;
+	padding: 10px;
+	background: rgb(255, 129, 129);
+}
+li ul {display: none;}
+
+ul li a {
+	display: block;
+	padding: lem;
+	text-decoration: none;
+	white-space: nowrap;
+	color: black;
+}
+
+ul li a:hover {background:rgb(255, 129, 129);}
+
+li:hover > ul {
+	display: block;
+	position: absolute;
+}
+
+li:hover li {float: none;}
+
+li:hover a {background: rgb(255, 129, 129);}
+
+li:hover li a:hover {background: plum;}
+
+.main-navigation li ul li {border-top: 0;}
+
+ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+ul::before,
+ul:after {
+	content: " ";
+	display: table;
+}
+
+ul::after {clear: both;}

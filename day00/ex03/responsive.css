@@ -1,0 +1,79 @@
+td{
+	width: 6vmin;
+	height: 6vmin;
+}
+
+.alkali-metals{
+	background-color:#ff6666;
+	opacity: 90%;
+}
+.alkaline-earth{
+	background-color: #ffdead;
+	opacity: 90%;
+}
+.transition-metals{
+	background-color: #ffc0c0;
+	opacity: 90%;
+}
+.lanthanide{
+	background-color: #ffbfff;
+	opacity: 90%;
+}
+.actinide{
+	background-color: #ff99cc;
+	opacity: 90%;
+}
+.reactive-nonmetal{
+	background-color: #f0ff8f;
+	opacity: 90%;
+}
+.noble-gas{
+	background-color: #c0ffff;
+	opacity: 90%;
+}
+.post-transition-metal{
+	background-color: #cccccc;
+	opacity: 90%;
+}
+.metalloid{
+	background-color: #cccc99;
+	opacity: 90%;
+}
+.unknown-chemical-properties{
+	background-color: #e8e8e8;
+	opacity: 90%;
+}
+.symbol{
+	font-size: 2vmin;
+	font-weight: bold;
+	font-family: monospace;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 6vh;
+
+}
+.atomic-number{
+	font-size: 1vmin;
+	font-family: monospace;
+	float: left;
+	padding-right: 10%;
+}
+.atomic-weight{
+	font-size: 1vmin;
+	font-family: monospace;
+	float: right;
+}
+.table{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/00/Mendeleev_c1880.jpg);
+	background-size: 100%;
+	background-blend-mode: lighten;
+}
+.col-number{
+	background-color: white;
+	font-family: monospace;
+	font-weight: bolder;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 6vmin;
+	opacity: 80%;
+}
