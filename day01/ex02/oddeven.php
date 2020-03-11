@@ -13,9 +13,10 @@ $stdin = fopen('php://stdin', 'r');
 			if ($line % 2 == 0)
 				echo "The number $line is even\n";
 			else
-				echo "The number $line is Odd\n";
+				echo "The number $line is odd\n";
 		}
 		else
 			echo "'$line' is not a number\n";
 	}
+	echo "\n";
 ?>
