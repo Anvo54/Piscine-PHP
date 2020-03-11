@@ -7,10 +7,7 @@ $stdin = fopen('php://stdin', 'r');
 		echo "Enter a number: ";
 		$line = trim(fgets($stdin));
 		if (feof($stdin))
-			{
-				echo "^D\n";
 				break;
-			}
 		if(is_numeric($line))
 		{
 			if ($line % 2 == 0)

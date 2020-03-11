@@ -9,9 +9,7 @@
 				unset($str_arr[$key]);
 		}
 		$array = array_values($str_arr);
-		sort($str_arr);
-		$array = array_values($str_arr);
-		unset($str_arr);
+		sort($array);
 		return($array);
 	}
 ?>
